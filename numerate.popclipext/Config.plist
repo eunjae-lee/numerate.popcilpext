@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Regular Expression</key>
+			<string>[0-9]+</string>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>numerate.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
+			<key>Shell Script File</key>
+			<string>numerate.py</string>
+			<key>Title</key>
+			<string>Numerate</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>http://github.com/eunjae-lee</string>
+			<key>Name</key>
+			<string>Eunjae Lee</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>...</string>
+	<key>Extension Identifier</key>
+	<string>net.eunjae.popclip.extension.numerate</string>
+	<key>Extension Name</key>
+	<string>Numerate</string>
+	<key>Required Apps</key>
+	<integer>701</integer>
+</dict>
+</plist>
